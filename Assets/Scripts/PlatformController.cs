@@ -14,7 +14,7 @@ public class PlatformController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float rotacionX = Input.GetAxis("Horizontal") * velocidadX*-1;
-		float rotationZ = Input.GetAxis("Vertical") * velocidadZ*-1;
-		transform.Rotate(rotacionX*Time.deltaTime, 0, rotationZ*Time.deltaTime);
+		float rotacionZ = Input.GetAxis("Vertical") * velocidadZ*-1;
+		transform.Rotate(rotacionX*Time.deltaTime, 0, rotacionZ*Time.deltaTime);
 	}
 }
