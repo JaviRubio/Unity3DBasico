@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameController : MonoBehaviour {
+public class GameWin : MonoBehaviour {
 
 	void OnTriggerEnter (Collider myTrigger) {
 		if(myTrigger.gameObject.name == "Sphere"){
-			Debug.Log("PartidaFinalizada");
+			Application.LoadLevel("Nivel2");
 		}
 	}
 }
