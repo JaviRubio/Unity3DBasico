@@ -48,9 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameLose.cs" />
      <Compile Include="Assets\Scripts\GameWin.cs" />
+     <Compile Include="Assets\Scripts\GameWin2.cs" />
      <Compile Include="Assets\Scripts\MenuFunciones.cs" />
      <Compile Include="Assets\Scripts\PlatformController.cs" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

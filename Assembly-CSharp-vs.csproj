@@ -48,9 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameLose.cs" />
      <Compile Include="Assets\Scripts\GameWin.cs" />
+     <Compile Include="Assets\Scripts\GameWin2.cs" />
      <Compile Include="Assets\Scripts\MenuFunciones.cs" />
      <Compile Include="Assets\Scripts\PlatformController.cs" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/jvr14_000/Documents/PracticaFinalModulo4/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
